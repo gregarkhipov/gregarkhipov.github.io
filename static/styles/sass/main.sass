@@ -16,15 +16,11 @@
 =background-size($s)
   -webkit-background-size: $s
   -moz-background-size: $s
-  -ms-background-size: $s
-  -o-background-size: $s
   background-size: $s
   
 =transition($s)
   -webkit-transition: $s
   -moz-transition: $s
-  -ms-transition: $s
-  -o-transition: $s
   transition: $s
   
 =tblr($s)
@@ -33,11 +29,7 @@
   left: $s
   right: $s
 
-$blk: #000
-
 $font-stack: PT Sans, Lucida Grande, Trebuchet, Arial, sans-serif
-
-//---------------------------
 
 a
   text-decoration: none
@@ -94,17 +86,17 @@ body
   min-width: 600px
   min-height: 400px
   +tblr(0px)
-  opacity: .4
+  opacity: .7
 
   #back
     position: absolute
     min-width: 600px
     min-height: 400px
-    width: 200%
-    height: 200%
-    top: -50%
-    left: -50%
-    background: url(../../images/foto.jpg) center
+    width: 110%
+    height: 110%
+    top: -5%
+    left: -5%
+    background: url(../../images/back.jpg) center
     +background-size(cover)
 
 .content
@@ -116,26 +108,32 @@ body
     position: relative
     display: inline-block
     margin: 20px auto
-    padding: 30px 60px
+    padding: 25px 40px
     z-index: 30
-    background: rgba(#fff, .9)
-    box-shadow: 0px 2px 7px rgba(#000, .15), 0px 5px 15px rgba(#000, .2), 0px 10px 30px rgba(#000, .3)
-    border-radius: 2px
+    background: rgba(#fff, .8)
+    box-shadow: 0px 1px 2px rgba(#000, .1), 0px 2px 7px rgba(#000, .1), 0px 5px 15px rgba(#000, .15), 0px 10px 30px rgba(#000, .2), 0px 15px 45px rgba(#000, .2)
+    border-radius: 5px
 
+    .photo
+      height: 100px
+      width: 100px
+      border-radius: 75px
+      box-shadow: 0px 1px 2px rgba(#000, .05), 0px 2px 5px rgba(#000, .05)
+        
     h1
-      font-size: 19pt
+      font-size: 25px
       line-height: 150%
       color: #000
 
     .text
-      font-size: 16pt
+      font-size: 20px
       line-height: 150%
-      color: rgba(#000, .5)
-      margin-bottom: 15px
+      color: rgba(#000, .6)
+      margin-bottom: 10px
 
     .social
       a
-        opacity: .6
+        opacity: .8
         margin: 0px 3px
       
         &:hover

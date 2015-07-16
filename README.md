@@ -1,5 +1,5 @@
 # chschtsch.github.io
-My personal site. http://chschtsch.ga/
+My personal site. http://chschtsch.github.io/
 
 ## License
 

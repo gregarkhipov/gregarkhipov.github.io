@@ -3,6 +3,7 @@ My personal site. http://chschtsch.github.io/
 
 ## License
 
+The author of background picture is David Shankbone, and the photo is licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
 Site is licensed under [MIT License](MIT-LICENSE.txt).
 
 [jQuery](http://jquery.org/) and

@@ -1,30 +1,45 @@
-* {
+html, body {
   margin: 0px;
   padding: 0px;
 }
 
 body {
   background: #444;
-  padding: 20px 25px;
-  font-family: "PT Sans", "Lucida Grande", sans-serif;
+  font-family: "Fira Sans", "PT Sans", "Lucida Grande", "Trebuchet", "Arial", sans-serif;
 }
 
-h1, h2, div {
-  font-weight: bold;
+.page404 {
+  display: flex;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   text-align: center;
   color: #6ee;
   text-shadow: 0px 1px 0px rgba(0, 0, 0, .5), 0px 1px 3px rgba(0, 0, 0, .2);
+  max-height: 100%;
+  max-width: 100%;
+  overflow: auto;
 }
 
-h1 {
+h1, h2, h3 {
+  margin: 0;
+}
+
+.page404__container {
+  margin: auto;
+}
+
+.page404__404 {
+  font-size: 72pt;
+  color: #ee6;
+}
+
+.page404__heading {
   font-size: 24pt;
 }
 
-h2 {
+.page404__subheading {
   font-size: 18pt;
-}
-
-div {
-  font-size: 72pt;
-  color: #ee6;
 }

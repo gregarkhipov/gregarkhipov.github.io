@@ -1,5 +1,5 @@
-# chschtsch.github.io
-My personal site. http://chschtsch.github.io/
+# gregarkhipov.github.io
+My personal site. http://gregarkhipov.github.io/
 
 ## License
 
